@@ -6,6 +6,7 @@
   ],
   "compilerOptions": {
     "allowJs": true,
+    "allowUnusedLabels": true,
     "skipLibCheck": true,
     "noEmit": true,
     "esModuleInterop": true,
