@@ -5,6 +5,11 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
     "strict": false,
     "baseUrl": ".",
     "paths": {
@@ -12,3 +17,5 @@
     }
   }
 }
+
+
